@@ -1,0 +1,423 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: white;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+a {
+    border: 0;
+    outline: 0px;
+    text-decoration: none;
+}
+h1{
+	padding: 0;
+	display: block;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+table[Attributes Style] {
+    width: 100%;
+    height: 100%;
+}
+table {
+	display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+img {
+    border: none;
+}
+
+.top{
+	width: 100%;
+	height: auto;
+	margin: 15px 0 0 0;
+	background: url('../images/franja.jpg') no-repeat center;
+	text-align: center;
+	transition: all 0.25s ease-out;
+}
+.con_top{
+	width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+	display: inline-block;
+	transition: all 0.25s ease-out;
+}
+.redes_top{
+	width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 18px;
+    color: #00aaa6;
+    vertical-align: top;
+}
+.redes_top span {
+    display: inline-block;
+    margin: 5px 7px 0 0;
+    vertical-align: top;
+}
+.redes_top .face {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url(../images/facebook.png) no-repeat;
+}
+
+
+.sombra{
+	width: 100%;
+	height: auto;
+	background: #00aaa6;
+	text-align: center;
+	box-shadow: 0px 4px 14px -1px rgba(100, 100, 100, 0.82);
+    position: relative;
+    z-index: 10;
+}
+.nav-collapse .closed{
+	max-width: none;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+	transition: max-height 580ms;
+	position: static;
+}
+.menu{
+	width: 1000px;
+	height: 38px;
+	margin: 0 auto;
+}
+.menu a{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding: 0 22px 0 22px;
+	font-size: 21px;
+	color: white;
+	line-height: 40px;
+	
+}
+
+
+.ss1_wrapper{
+	border-width: 10px;
+	border-style: outset;
+	border-color: orange;
+}
+
+
+
+
+.banner{
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	
+}
+.slides{
+	width: 100%;
+
+}
+.slides img{
+	width: 90%;
+
+	
+}
+.slidesjs-pagination{
+	background: #424242;
+	list-style: none;
+	overflow: hidden;
+}
+.slidesjs-pagination li{
+	float: left;
+}
+.slidesjs-pagination li a{
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.slidesjs-pagination li a:hover {
+	background: #000;
+}
+.slides .active{
+	background: #000;
+}
+.slidesjs-navigation{
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+}
+.full_width {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.full_width h1 {
+    text-align: center;
+    font-family:normal 26px 'Oswald', sans-serif;
+    color: #747474;
+}
+.title_home{
+	width: 1331px;
+	height: auto;
+	position: relative;
+	margin: 0 auto 5px auto;
+}
+
+.title_home:before {
+    content: "";
+    width: 511px;
+    height: 1px;
+    background: #DBDADA;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+.title_home:after {
+    content: "";
+    width: 511px;
+    height: 1px;
+    background: #DBDADA;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+.list_carousel.responsive {
+    width: 1330px;
+    height: auto;
+    margin: 0 auto 30px auto;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: solid 1px #DBDADA;
+}
+
+.listado_catalogo{
+	width: 1330px;
+    height: auto;
+    margin: 35px auto 30px auto;
+    padding: 5px 0 0 0;
+    border-bottom: solid 1px #DBDADA;
+    list-style: none;
+    display: block;
+    text-align: center;
+    transition: all 0.25s ease-out;
+    overflow: hidden;
+}
+.listado_catalogo li{
+	display: inline-block;
+	text-align: center;
+	width: 323px;
+	height: 489;
+	padding: 0;
+	vertical-align: top;
+	transition: all 0.25s ease-out;
+}
+.listado_catalogo .img_dest {
+    display: inline-block;
+    width: 311px;
+    height: 418px;
+    margin: 0 0 8px 0;
+    border-top: solid #fff 2px;
+    border-bottom: solid #fff 2px;
+    border-left: solid #fff 2px;
+    border-right: solid #fff 2px;
+}
+.listado_catalogo .view {
+    width: 311px;
+    height: 416px;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.listado_catalogo .view img {
+    width: 100%;
+    height: 420px;
+    display: block;
+    position: relative;
+}
+.listado_catalogo .second-effect .mask {
+    opacity: 0;
+    overflow: visible;
+    border: 0px solid rgba(0, 0, 0, 0.7);
+    /*-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;*/
+    box-sizing: border-box;
+    /*-webkit-transition: all 0.4s ease-in-out;*/
+    /*-moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;*/
+    transition: all 0.4s ease-in-out;
+}
+.listado_catalogo li:hover .second-effect .mask {
+    opacity: 1;
+    border: 156px solid rgba(0, 0, 0, 0.43);
+}
+
+.listado_catalogo li h2 {
+    font-family:normal 26px 'Oswald', sans-serif;
+    color: #00aaa6;
+
+    margin: 0 0 3px 0;
+    text-transform: capitalize;
+}
+.border_img {
+	border-width: 2px;
+	border-style: outset;
+	border-color: orange;
+}
+h2{
+	padding: 0;
+	margin-top: 10px;
+}
+footer{
+    width: 100%;
+    height: 102px;
+    padding: 10px 0 0 0;
+    margin: 37px 0 0 0;
+    background: #00AAA6;
+}
+.cont_footer{
+	width: 965px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.contact_footer{
+	display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 5px 0 6px 0;
+    text-align: left;
+}
+.contact_footer b, .siguenos_footer b {
+    display: inline-block;
+    margin: 0 0 4px 0;
+    text-align: left;
+    font: normal 11px 'CenturyGothicBoldItalic', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: normal;
+}
+.contact_footer .ico_fono {
+    background: url(../images/ico_telefono.png) no-repeat left;
+    padding: 0 5px 0 23px;
+    margin-top: 7px;
+}
+.contact_footer span {
+    display: inline-block;
+    font: normal 15px 'CenturyGothicItalic', Arial, Helvetica, sans-serif;
+    color: #fff;
+    vertical-align: top;
+    text-align: left;
+}
+.contact_footer .ico_ubic {
+    background: url(../images/ico_ubicacion.png) no-repeat left;
+    margin-top: 6px;
+    padding: 0 0 0 29px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.contact_footer i {
+    display: inline-block;
+}
+.contact_footer span a {
+    color: #fff;
+}
+.line_footer:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #bcbbbb;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.siguenos_footer {
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 6px 0 0 0;
+    text-align: left;
+}
+.siguenos_footer b {
+    display: inline-block;
+    margin: 0 0 4px 0;
+    text-align: left;
+    font: normal 11px 'CenturyGothicBoldItalic', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: normal;
+}
+.siguenos_footer span {
+    display: inline-block;
+    vertical-align: top;
+}
+.fb_footer {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    margin: 14px 0 0 26px;
+    background: url(../images/fb_footer.png) no-repeat;
+    vertical-align: top;
+    border-radius: 50%;
+    transition: all 0.25s ease-out;
+}
+.atencion{
+	margin-top: 6px;
+    padding: 0 0 0 29px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.bottom_footer {
+    width: 100%;
+    height: 31px;
+    background: #008885;
+    overflow: hidden;
+    font: normal 12px 'MyriadProRegular', Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.cont_footer {
+    width: 965px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.siswebperu {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 6px 0 0 0;
+    text-align: right;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+.copy {
+    float: right;
+    margin: 10px 0 0 0;
+}
